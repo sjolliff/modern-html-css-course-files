@@ -1,3 +1,8 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.fa-facebook {
+  color: rgb(53, 53, 239);
+  font-size: 50px;
+}
