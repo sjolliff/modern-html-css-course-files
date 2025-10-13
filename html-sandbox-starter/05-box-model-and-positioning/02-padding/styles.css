@@ -1,3 +1,26 @@
 body {
-  font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
+}
+
+.box {
+	background-color: darkblue;
+	color: white;
+	/* padding: 20px; */
+	width: 300px;
+
+	/* padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 60px;
+  padding-bottom: 100px; */
+
+	/*TRBL - Top.Right.Bottom.Left */
+
+	padding: 20px 40px 100px 60px;
+
+	/* TB-LR - Top and Bottom, Left and Right */
+	padding: 20px 40px;
+
+	/* Top - Right, Left - Bottom */
+
+	padding: 20px 40px 30px;
 }

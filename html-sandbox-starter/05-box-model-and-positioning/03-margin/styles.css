@@ -1,3 +1,26 @@
 body {
-  font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
+}
+
+h1,
+p {
+	margin: 0;
+}
+
+.box {
+	background-color: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box h1 {
+  margin-bottom: 10px;
+}
+
+.box-2 {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-left: 50px;
 }

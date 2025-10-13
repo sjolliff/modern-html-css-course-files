@@ -1,16 +1,23 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 .box {
-  background: coral;
-  max-width: 400px;
-  margin: 20px;
-  padding: 20px;
+	background: coral;
+	max-width: 400px;
+	margin: 20px;
+	padding: 20px;
+	/* shorthand */
+	border: 2px solid black;
+
+	/* Same as above */
+	border-width: 2px;
+	border-style: dashed;
+	border-color: red;
 }
